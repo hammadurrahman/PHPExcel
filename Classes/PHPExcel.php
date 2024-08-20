@@ -541,7 +541,7 @@ class PHPExcel
         if ($pSheet->getParent() === null) {
             $pSheet->rebindParent($this);
         }
-
+License along with this library; if not, write to the Free Software
         return $pSheet;
     }
 
